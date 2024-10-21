@@ -1,0 +1,35 @@
+.about-fullss {
+  border-top: 0.3em solid $color2;
+  border-right: 0.7em solid $color2;
+  border-left: 0.7em solid $color2;
+  border-bottom: 0.3em solid $color2;
+  &__content {
+    width: 100vw;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 50px;
+    &--image {
+      width: 500px;
+      img {
+        width: 100%;
+        border-radius: 100%
+      }
+    }
+    &--text {
+      padding: 2em;
+      width: 500px;
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+  &__div2 {
+    width: 600;
+    max-width: 700px;
+    margin: 2em;
+    border: 0.2em solidrgba(168, 148, 148, 0.155);
+  }
+}
